@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/javascript.js"></script>
+    <title>Personal Website</title>
+</head>
+<body>
+  <button onclick="sayHello()">Say Hello</button>
+
+  <script src="helloworld.js"></script>
+  <script>
+      function sayHello() {
+          
+          helloWorld("Hello, world!");
+      }
+  </script>
+    <nav>
+        <div id="logo">
+            <h1>Anson Robinson</h1>
+        </div>
+        <div id="links">
+            <a class="active" href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/portfolio">Portfolio</a>
+        </div>
+    </nav>
+    <main>
+        <img src="Anson.jpg" alt="Anson Robinson">
+        <h2>Software Developing Student</h2>
+        <p>
+            I am interested in taking the knowledge and principles I gain here to secure an engineering position.
+        </p>
+        <h3 class="quote">
+            "Technology is best when it brings people together."
+            - Matt Mullenweg
+        </h3>
+    </main>
+    <footer>
+        <a href="https://facebook.com" target="_blank">
+            <img class="media-link" src="/images/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img class="media-link" src="/images/linkedin.svg" alt="Linkedin">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img class="media-link" src="/images/twitter.svg" alt="Twitter">
+        </a>
+    </footer>
+</body>
+</html>
+
